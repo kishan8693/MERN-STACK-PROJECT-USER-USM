@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(33, 37, 41);
+}
+
+.container {
+  width: 100%;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Contact Form Styles */
+.section-registration-from {
+  padding: 20px;
+  border: 1px solid #ddd; /* Light border for form */
+  border-radius: 5px; /* Rounded corners for form */
+  background: linear-gradient(135deg, #C33764, #1D2671); /* New gradient background */
+}
+
+
+
+.section-registration-from input{
+width: 100%; /* Make input and textarea full width */
+padding: 10px;
+margin-bottom: 15px; /* Spacing between form elements */
+border: 1px solid #ccc; /* Light border for input and textarea */
+border-radius: 3px; /* Rounded corners for input and textarea */
+}
+
+.inputmail {
+/* Additional styles for email input, if needed */
+}
+
+
+.section-registration-from button {
+background-color: #4CAF50; /* Green button color */
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+margin-top: 10px; /* Spacing after form elements */
+}
